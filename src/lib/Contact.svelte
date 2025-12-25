@@ -21,10 +21,13 @@
             <a href={profile.telegram} target="_blank" class="hover:text-cyan-400 transition-colors">Telegram</a>
             <a href="mailto:{profile.email}" class="hover:text-cyan-400 transition-colors">Email</a>
          </div>
-         <a href="https://wakatime.com/@Exitinger" target="_blank" class="opacity-80 hover:opacity-100 transition-opacity">
-            <img src="https://wakatime.com/@Exitinger" alt="#Exitinger - Full Stack Developer" />
+
+         <a href={profile.github} target="_blank" class="group transition-all duration-300">
+            <span class="text-zinc-500 group-hover:text-cyan-400 transition-colors">
+              <span class="font-bold text-zinc-400 group-hover:text-cyan-400">#Exitinger</span> - Full Stack Developer
+            </span>
          </a>
     </div>
-    <p>Designed & Built by {profile.name}</p>
+    <p class="opacity-50">Designed & Built by {profile.name}</p>
   </footer>
-</section>
+  
